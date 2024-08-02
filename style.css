@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    width: 100%;
+    height: 950px;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/의사.jpg) no-repeat;
+    background-size: cover;
+
+    color: gainsboro;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: 20px;
+
+    transition: 0.4s;
+}
+
+.logo:hover {
+    color: rgb(219, 141, 141);
+}
+
+.menu {
+    width: 450px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.menu li {
+    font-size: 25px;
+}
+
+.menu li a {
+    transition: 0.4s;
+    color: white;
+}
+
+.menu li a:hover {
+    color: rgb(219, 141, 141);
+}
+
+.intro {
+    width: 900px;
+    height: 500px;
+
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.intro h3 {
+    text-align: center;
+    font-size: 70px;
+}
+
+.intro h5 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.intro h4 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.intro button {
+    width: 150px;
+    height: 70px;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    color: darkslategrey;
+
+    background-color: transparent;
+    border: 2px solid gainsboro;
+    color: gainsboro;
+    font-size: 15px;
+
+    transition: 0.3s;
+}
+
+.intro button:hover {
+    background-color: gainsboro;
+    color: black;
+}
+
+.about {
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.about h5 {
+    color: rgb(168, 18, 18);
+    font-size: 30px;
+}
+
+.about h1 {
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+.about-contents {
+    height: 600px;
+    display: flex;
+}
+
+.about-contents .left {
+    width: 600px;
+    height: 600px;
+    margin-right: 20px;
+}
+
+.about-contents .right {
+    width: 600px;
+    height: 600px;
+
+    margin: 0 auto;
+}
+
+.about-contents .right h3 {
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(168, 18, 18);
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.about-contents .right li {
+    font-size: 19px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.about img {
+    width: 600px;
+    height: 400px;
+    transition: 0.3s;
+    border-radius: 20px;
+}
+
+.about img:hover {
+    opacity: 0.8;
+}
+
+.skills {
+    height: 800px;
+    background-color: #f8f8f8;
+    margin-top: 200px;
+    padding-top: 100px;
+
+}
+
+.skills-inner {
+    width: 1200px;
+    height: 800px;
+
+    margin: 0 auto;
+}
+
+.skills h5 {
+    color: rgb(168, 18, 18);
+    font-size: 30px;
+}
+
+.skills h1 {
+    font-size: 60px;
+
+}
+
+.skills-contents {
+    width: 1200px;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills-contents .box {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    transition: 0.4s;
+    text-align: center;
+    padding-top: 10px;
+    padding: 10px;
+}
+
+.skills-contents .box:hover {
+    background-color: rgb(177, 115, 115);
+    color: white;
+}
+
+.skills h4 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.skills p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.bg2 {
+    height: 700px;
+    background: url(/병원.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contact {
+    width: 1200px;
+    height: 800px;
+
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.contact h5 {
+    color: rgb(168, 18, 18);
+    font-size: 30px;
+}
+
+.contact h1 {
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+.contact .contents {
+    width: 1200px;
+    height: 1000px;
+    display: flex;
+}
+
+.contact .contents .left{
+    width: 400px;
+    height: 600px;
+}
+
+.contact .contents .right {
+    width: 800px;
+    height: 600px;
+}
+
+.info {
+    width: 300px;
+    height: 90px;
+    border: 1px solid black;
+    padding-left: 40px;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+
+.info h2 {
+    font-size: 20px;
+}
+
+.info h6 {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.contact .right{
+    width: 500px;
+    height: 600px;
+
+    border: 1px solid #ddd;
+}
+.btn-name,.btn-email{
+    width: 90%;
+    height: 25px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+.btn-message{
+    width: 90%;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+
+.contact .name,.contact .email, .contact .message{
+    margin-top: 30px;
+    padding-left: 40px;
+}
+
+.send{
+    width: 90%;
+    height: 25px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+
+    background-color: rgb(177, 115, 115);
+
+    margin-top: 20px;
+}
+
+.contact-box{
+    height: 800px;
+    
+    margin-top: 200px;
+    padding-top: 100px;
+
+}
